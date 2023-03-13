@@ -57,9 +57,10 @@ p {
     padding: 15px 0;
     text-decoration: none;
     font-weight: 700;
-    transition-duration: .3s ;
+    transition-duration: .3s;
 }
-.primary-button:hover{
+
+.primary-button:hover {
     background-color: #5073e1;
 }
 
@@ -73,4 +74,3 @@ p {
     font-size: 15px;
     color: var(--secondary-text-color);
 }
-
