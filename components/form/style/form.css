@@ -1,0 +1,56 @@
+.section-form {}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-title{
+   
+}
+
+.section-name{
+    color: #999999;
+    text-transform: uppercase;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: [column] 1fr [column] 1fr;
+    grid-template-rows: [row] 1fr;
+    column-gap: 32px;
+    row-gap: 18px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    grid-column: column;
+    grid-row: row;
+}
+
+.phone {
+    grid-column: column 2;
+    grid-row: row;
+}
+
+.question {
+    grid-column: column 1 / span 2;
+    grid-row: row 2;
+}
+
+.consent-container{
+    display: flex;
+    align-items: center;
+}
+.consent::after{
+   content: '.';
+   width: 10px;
+}

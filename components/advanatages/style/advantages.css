@@ -39,6 +39,10 @@
 }
 
 @media (max-width: 993px) {
+    .advantages-title {
+        text-align: center;
+    }
+
     .advantages-card {
         flex-direction: column;
         gap: 32px;
