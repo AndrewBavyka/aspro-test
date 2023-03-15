@@ -1,4 +1,8 @@
-.section-form {}
+.section-form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
 
 .form-title {
     display: flex;
@@ -47,6 +51,7 @@
 }
 
 .consent-container{
+    margin-top: 22px;
     display: flex;
     align-items: center;
 }

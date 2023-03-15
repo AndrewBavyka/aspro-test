@@ -13,8 +13,8 @@
                 <img src="images/advantages/union-icon.svg" alt="card-icon">
                 <h4 class="card-title">Дизайн</h4>
                 <p class="card-description">
-                    Подберите подходящую цветовую гамму, <br>
-                    замените логотип</p>
+                    Подберите подходящую цветовую гамму, замените логотип
+                </p>
             </div>
         </div>
         <div class="card-item">
@@ -22,7 +22,8 @@
                 <img src="images/advantages/info-icon.svg" alt="card-icon">
                 <h4 class="card-title">Информация</h4>
                 <p class="card-description">
-                    Заполните информацию о компании и расскажите про свои преимущества</p>
+                    Заполните информацию о компании и расскажите про свои преимущества
+                </p>
             </div>
         </div>
         <div class="card-item">
@@ -31,7 +32,8 @@
                 <h4 class="card-title">Контент</h4>
                 <p class="card-description">
                     Загрузите каталог товаров
-                    или список услуг <br> и сайт готов</p>
+                    или список услуг и сайт готов
+                </p>
             </div>
         </div>
     </div>

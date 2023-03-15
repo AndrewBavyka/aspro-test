@@ -6,13 +6,14 @@
     align-items: center;
     justify-content: center;
     gap: 34px;
+    word-break: break-word;
 }
 
 .advantages-card {
     margin-top: 44px;
     display: flex;
     justify-content: space-between;
-    gap: 2.1%;
+    gap: 32px;
 }
 
 .card-item {
@@ -23,7 +24,10 @@
     background: var(--secondary-white);
 }
 
-.card-item__content {}
+.card-item__content {
+    max-width: 100%;
+    word-break: break-word;
+}
 
 .card-title {
     padding: 24px 0 9px 0;

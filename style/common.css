@@ -44,6 +44,12 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+
 p {
     line-height: 25px;
 }
@@ -118,6 +124,6 @@ textarea {
     padding-left: 2px;
 }
 
-.send-form{
+.send-form {
     margin-top: 40px;
 }
