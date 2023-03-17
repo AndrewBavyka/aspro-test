@@ -34,13 +34,7 @@ body {
     padding: 0 30px;
 }
 
-h1,
-a,
-h2,
-h3,
-h4,
-p,
-label {
+h1, a, h2, h3, h4, p, label {
     font-family: 'Montserrat', sans-serif;
 }
 
