@@ -1,0 +1,129 @@
+.about {
+    display: grid;
+    grid-template-columns: [column] 1fr [column] 2fr;
+    grid-template-rows: [row] 1fr;
+    gap: 74px 60px;
+}
+
+.about-title {
+    grid-column: column;
+    grid-row: row;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    /* ВРЕМЕННО поменять*/
+}
+
+.about-description {
+    grid-column: column 2;
+    grid-row: row;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.company-advantages {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 28px;
+    column-gap: 32px;
+}
+
+.company-advantages__card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.card-content {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-content__title {
+    font-size: 17px;
+}
+
+.card-content__desc {
+    font-size: 14px;
+}
+
+.about-video {
+    position: relative;
+    grid-column: column 1 / span 2;
+    grid-row: row 2;
+}
+
+.video {
+    border-radius: var(--border-radius);
+}
+
+.video-btn {
+    z-index: 1;
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: #3562D6;
+}
+
+.video-btn::after {
+    content: '';
+    left: 41%;
+    top: 40%;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 14px 26px 14px;
+    border-color: transparent transparent var(--primary-white) transparent;
+    transform: rotate(90deg);
+}
+
+@media (max-width: 993px) {
+    .about {
+        grid-template-columns: 1fr;
+        gap: 30px 0;
+        align-items: center;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    .about-description {
+        display: flex;
+        flex-direction: column;
+        grid-column: column;
+        grid-row: row 2;
+    }
+
+    .about-video {
+        grid-row: row 3;
+    }
+
+    .video-btn {
+        width: 75px;
+        height: 75px;
+    }
+
+    .video-btn::after {
+        left: 38%;
+        top: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .company-advantages {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+}

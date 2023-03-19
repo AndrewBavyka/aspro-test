@@ -1,9 +1,12 @@
-@import "/style/common.css";
+/* Общие стили */
+@import '/style/common.css';
 
-@import "/style/header.css";
+@import '/components/header/style/header.css';
 
-@import "/components/advanatages/style/advantages.css";
-@import "/components/news/style/news.css";
-@import "/components/form/style/form.css";
+@import '/components/advanatages/style/advantages.css';
+@import '/components/news/style/news.css"';
+@import '/components/about/style/about.css';
+@import '/components/form/style/form.css';
+@import '/components/product/style/product.css';
 
-@import "/style/footer.css";
+@import '/components/footer/style/footer.css';

@@ -11,7 +11,6 @@
 }
 
 :root {
-
     --primary-text-color: #333333;
     --secondary-text-color: #666666;
 
@@ -22,10 +21,7 @@
     --secondary-white: #F8F8F8;
 
     --secondary-color: #3761E9;
-}
-
-body {
-    /* min-height: 100vh; */
+    --light-blue: #5073e1;
 }
 
 .wrapper {
@@ -44,10 +40,15 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 h3 {
     font-size: 18px;
     line-height: 28px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 a {
@@ -78,7 +79,28 @@ p {
 }
 
 .primary-button:hover {
-    background-color: #5073e1;
+    background-color: var(--light-blue);
+}
+
+
+.secondary-button {
+    width: max-content;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 10px 23px;
+    color: var(--secondary-color);
+    border: 1px solid var(--light-blue);
+    border-radius: var(--border-radius);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    transition-duration: .3s;
+}
+
+.secondary-button:hover {
+    color: var(--primary-white);
+    background-color: var(--secondary-color);
 }
 
 .section-title {
@@ -132,4 +154,15 @@ textarea {
 
 .send-form {
     margin-top: 40px;
+}
+
+.prices-value {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.prices-value::before {
+    content: attr(data-price);
 }
