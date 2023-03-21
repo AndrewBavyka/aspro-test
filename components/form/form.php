@@ -4,7 +4,7 @@
         <h2 class="section-title">Свяжитесь с нами</h2>
         <p class="section-description">ООО "Компания" — учрежденное одним или несколькими юридическими или физическими лицами хозяйственное <br> общество. Участники общества не отвечают по его обязательствам </p>
     </div>
-    <form action="send">
+    <form class="form" action="send">
         <div class="form-container">
             <div class="form-item name">
                 <label class="input-title">Ваше имя</label>
@@ -20,8 +20,11 @@
             </div>
         </div>
         <div class="consent-container">
-            <label class="consent">Я согласен на обработку <a href="#">персональных данных</a></label>
+            <input type="checkbox" class="consent-check" name="" id="">
+            <label class="consent-label">Я согласен на обработку <a href="#" class="consent-link">персональных данных</a></label>
         </div>
-        <button class="primary-button send-form" type="submit">Регистрация</button>
+        <div class="send-form">
+            <button class="primary-button send-form__button" type="submit">Регистрация</button>
+        </div>
     </form>
 </section>

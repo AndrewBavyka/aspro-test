@@ -31,13 +31,21 @@
 }
 
 h1,
-a,
 h2,
 h3,
 h4,
+a,
 p,
-label {
+label,
+address {
     font-family: 'Montserrat', sans-serif;
+}
+
+address {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 h3 {
@@ -67,14 +75,14 @@ p {
     display: flex;
     border: none;
     justify-content: center;
-    width: 100%;
+    width: max-content;
     border-radius: var(--border-radius);
     background: var(--secondary-color);
     color: var(--primary-white);
-    padding: 15px 0;
+    padding: 15px 26px;
     text-decoration: none;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     transition-duration: .3s;
 }
 
@@ -125,7 +133,7 @@ textarea {
     padding-top: 10px;
 }
 
-input,
+input[type=text], input[type=tel],
 textarea {
     font-family: 'Montserrat', sans-serif;
     min-height: 48px;

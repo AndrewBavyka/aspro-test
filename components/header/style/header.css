@@ -1,1 +1,115 @@
-header {}
+.header {
+    padding: 17px 0 19px 0;
+    height: calc(136px - (17px + 19px));
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header__top {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+
+    grid-auto-flow: column;
+}
+
+.regionality {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.regionality-cities {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.city {
+    font-size: 13px;
+}
+
+.business-address {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.request-call {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.request-call__phone {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.request-call__link {
+    color: #3562D6;
+    ;
+    transition: .3s ease;
+}
+
+.request-call__link:hover {
+    color: var(--light-blue);
+}
+
+.line-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.language-selection {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.language-selection__dropdown {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.lang {
+    font-size: 13px;
+}
+
+.profile {}
+
+#cart {
+    position: relative;
+    width: 40px;
+}
+
+#cart::after {
+    content: '4';
+    position: absolute;
+    right: 15px;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    color: var(--primary-white);
+    width: 15px;
+    height: 15px;
+    background: #49B822;
+    border-radius: 50%;
+}
+
+.header__bottom {}
