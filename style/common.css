@@ -10,6 +10,15 @@
     /* font-family: 'IBM Plex Sans', sans-serif; */
 }
 
+html,
+body {
+    height: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
 :root {
     --primary-text-color: #333333;
     --secondary-text-color: #666666;
@@ -25,6 +34,9 @@
 }
 
 .wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     max-width: 1560px;
     padding: 0 30px;
@@ -41,7 +53,7 @@ address {
     font-family: 'Montserrat', sans-serif;
 }
 
-address {
+.address {
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
@@ -67,6 +79,15 @@ a {
 
 p {
     line-height: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a:hover {
+    transition: .3s;
 }
 
 .primary-button {
@@ -122,6 +143,12 @@ p {
     color: var(--secondary-text-color);
 }
 
+.section-subtitle{
+    font-size: 13px;
+    line-height: 27px;
+    color: #999999;
+}
+
 
 input[type=text],
 input[type=tel],
@@ -133,7 +160,8 @@ textarea {
     padding-top: 10px;
 }
 
-input[type=text], input[type=tel],
+input[type=text],
+input[type=tel],
 textarea {
     font-family: 'Montserrat', sans-serif;
     min-height: 48px;
@@ -173,4 +201,48 @@ textarea {
 
 .prices-value::before {
     content: attr(data-price);
+}
+
+.dark-text {
+    font-size: 13px;
+    color: #999999;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+
+.sticker {
+    padding: 4px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: max-content;
+    border-radius: var(--border-radius);
+    color: var(--primary-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heat {
+    background: #ED673C;
+}
+
+.recommend {
+    background: #925AEC;
+}
+
+.new {
+    background: #31B82F;
+}
+
+.discount {
+    font-weight: 600;
+    color: black;
+    background: #FFD600;
 }

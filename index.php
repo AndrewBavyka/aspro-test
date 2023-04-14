@@ -10,16 +10,18 @@
 
 <body>
     <div class="wrapper">
-        <?php require_once __DIR__ . '/components/header/header.php' ?>
-        <!-- <?php require_once __DIR__ . '/components/advanatages/advanatages.php'; ?> -->
-        <!-- <?php require_once __DIR__ . '/components/news/news.php'; ?> -->
-        <!-- <?php require_once __DIR__ . '/components/about/about.php' ?> -->
-        <!-- <?php require_once __DIR__ . '/components/form/form.php'; ?> -->
-        <!-- <?php require_once __DIR__ . '/components/product/product.php'; ?> -->
-
-        <!-- <?php require_once __DIR__ . '/components/footer/footer.php'; ?> -->
-
+        <!-- <?php require_once __DIR__ . '/components/header/header.php' ?> -->
+        <main>
+            <?php require_once __DIR__ . '/components/advanatages/advanatages.php'; ?>
+            <?php require_once __DIR__ . '/components/news/news.php'; ?>
+            <?php require_once __DIR__ . '/components/about/about.php' ?>
+            <?php require_once __DIR__ . '/components/form/form.php'; ?>
+            <?php require_once __DIR__ . '/components/product/product.php'; ?>
+        </main>
     </div>
+
+    <?php require_once __DIR__ . '/components/footer/footer.php'; ?>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

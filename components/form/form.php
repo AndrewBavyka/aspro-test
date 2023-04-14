@@ -1,7 +1,7 @@
 <section class="section-form">
     <div class="form-title">
         <p class="section-name">Контакты</p>
-        <h2 class="section-title">Свяжитесь с нами</h2>
+        <h2 class="section-title form-main__title">Свяжитесь с нами</h2>
         <p class="section-description">ООО "Компания" — учрежденное одним или несколькими юридическими или физическими лицами хозяйственное <br> общество. Участники общества не отвечают по его обязательствам </p>
     </div>
     <form class="form" action="send">

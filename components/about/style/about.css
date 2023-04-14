@@ -1,4 +1,5 @@
 .about {
+    margin-top: 150px;
     display: grid;
     grid-template-columns: [column] 1fr [column] 2fr;
     grid-template-rows: [row] 1fr;

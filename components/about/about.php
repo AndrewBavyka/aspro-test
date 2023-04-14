@@ -1,6 +1,6 @@
 <section class="about">
     <div class="about-title">
-        <p>О компании</p>
+        <p class="section-subtitle">О компании</p>
         <h2 class="section-title">Ключ к успешному бизнесу </h2>
         <a href="#" class="primary-button">Подробнее</a>
     </div>

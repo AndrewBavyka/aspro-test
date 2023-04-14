@@ -1,5 +1,5 @@
 <header class="header">
-    <div class="header__top">
+    <div class="header-top">
         <div class="regionality">
             <img src="/images/header/location-icon.svg" alt="regionality-icon">
             <div class="regionality-cities">
@@ -9,22 +9,30 @@
         </div>
         <div class="business-address">
             <img src="/images/header/address-icon.svg" alt="location-icon">
-            <address>Челябинск, ул. Лермонтова 21, 3 этаж, офис 4</address>
+            <address class="address">Челябинск, ул. Лермонтова 21, 3 этаж, офис 4</address>
         </div>
-        <div class="social-media">
-            <a href="#">
-                <img src="/images/header/yt-icon.svg" alt="social-icon">
-            </a>
-            <a href="#">
-                <img src="/images/header/twitter-icon.svg" alt="social-icon">
-            </a>
-            <a href="#">
-                <img src="/images/header/inst-icon.svg" alt="social-icon">
-            </a>
-            <a href="#">
-                <img src="/images/header/vk-icon.svg" alt="social-icon">
-            </a>
-        </div>
+        <ul class="social-media">
+            <li>
+                <a href="#">
+                    <img src="/images/header/yt-icon.svg" alt="social-icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/header/twitter-icon.svg" alt="social-icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/header/inst-icon.svg" alt="social-icon">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="/images/header/vk-icon.svg" alt="social-icon">
+                </a>
+            </li>
+        </ul>
         <div class="request-call">
             <div class="phone">
                 <img src="/images/header/phone-icon.svg" alt="phone-icon">
@@ -49,9 +57,40 @@
             </a>
         </div>
     </div>
-    <div class="header__bottom">
 
-
-
+    <div class="header-main">
+        <div class="burger">
+            <span></span>
+        </div>
+        <div class="header-main__logo">
+            <img src="images/header/main-logo.svg" alt="logo">
+        </div>
+        <div class="header-main__title">
+            <p>Готовое решение для создания корпоративного сайта</p>
+        </div>
+        <div class="header-main__menu">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="li"><a href="#" class="menu__link">Услуги</a></li>
+                    <li class="li"><a href="#" class="menu__link">Каталог</a></li>
+                    <li class="li"><a href="#" class="menu__link">Проект</a></li>
+                    <li class="li"><a href="#" class="menu__link">Компания</a></li>
+                    <li class="li"><a href="#" class="menu__link">Курсы</a></li>
+                    <li class="li"><a href="#" class="menu__link">Цены</a></li>
+                    <li class="li"><a href="#" class="menu__link">Информация</a></li>
+                </ul>
+                <div class="menu__hide">
+                    <div class="menu-dots hide">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="hide-list"></ul>
+                </div>
+            </nav>
+        </div>
+        <div class="header-main__request">
+            <button class="primary-button request-btn">Подать заявку</button>
+        </div>
     </div>
 </header>

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: max-content;
-    margin: 0 auto;
+    margin: 150px auto 0 auto;
 }
 
 .form-title {
@@ -13,15 +13,19 @@
     text-align: center;
 }
 
-.section-title {}
+.form-main__title {
+    padding: 17px 0 24px 0;
+}
 
 .section-name {
     color: #999999;
     text-transform: uppercase;
 }
-.form{
+
+.form {
     margin-top: 31px;
 }
+
 .form-container {
     display: grid;
     grid-template-columns: [column] 1fr [column] 1fr;

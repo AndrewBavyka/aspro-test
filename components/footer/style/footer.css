@@ -1,0 +1,232 @@
+.footer {
+    padding: 42px 0 59px 0;
+    background-color: var(--primary-text-color);
+}
+
+.footer-content {
+    min-height: auto;
+}
+
+.footer-content__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-contacts {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.footer-phone>.request-call__phone {
+    color: var(--primary-white);
+    font-weight: 700;
+}
+
+.email {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-address>.address {
+    color: var(--primary-white);
+}
+
+.social-item {
+    border-radius: var(--border-radius);
+    width: 39px;
+    height: 39px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.social-item:hover {
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.social-link {
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-item:hover>.facebook {
+    background-color: #0077ff;
+}
+
+.social-item:hover>.vk {
+    background-color: #3b5998;
+}
+
+.social-item:hover>.ok {
+    background-color: #ff9800;
+}
+
+.social-item:hover>.yt {
+    background-color: #c4302b;
+}
+
+.social-item:hover>.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+/* footer menu */
+.footer-content__main {
+    margin-top: 53px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+}
+
+.footer-menu {
+    padding: 60px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.footer-menu__item {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.menu__link-dark {
+    color: var(--primary-white);
+    max-width: max-content;
+}
+
+.menu__link-dark:hover {
+    color: #999999;
+}
+
+.footer-menu__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0.4s;
+    gap: 22px;
+}
+
+.footer-submenu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    word-wrap: break-word;
+    max-width: 206px;
+}
+
+.arrow {
+    display: none;
+}
+
+.footer-submenu__list {
+    gap: 8px;
+}
+
+.footer-submenu__link {
+    color: var(--primary-white);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999999;
+}
+
+.footer-submenu__link:hover {
+    color: var(--primary-white);
+}
+
+.payments-system {
+    transform: translateY(10px);
+    display: flex;
+    justify-content: center;
+}
+
+.payments-system__items {
+    width: max-content;
+    padding: 0 25px 0 25px;
+    background-color: var(--primary-text-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* footer-bottom */
+.footer-content__bottom {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.copyright,
+.license,
+.mailing-link,
+.footer-lang,
+.developer {
+    font-size: 13px;
+    color: #999999;
+}
+
+.license:hover,
+.mailing-link:hover,
+.footer-lang:hover {
+    color: var(--primary-white);
+}
+
+.footer-mailing {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-developer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1140px) {
+    .footer-content__top {
+        justify-content: space-evenly;
+    }
+
+    .footer-contacts {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-menu {
+        padding: 10%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .footer-submenu__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .arrow {
+        display: block;
+    }
+}
