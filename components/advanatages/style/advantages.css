@@ -1,4 +1,6 @@
-.advantages {}
+.advantages {
+    margin-top: 150px;
+}
 
 .advantages-title {
     display: flex;
@@ -29,6 +31,7 @@
     max-width: 100%;
     word-break: break-word;
 }
+
 
 .card-title {
     padding: 24px 0 9px 0;

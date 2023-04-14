@@ -1,6 +1,6 @@
 <section class="about">
     <div class="about-title">
-        <p>О компании</p>
+        <p class="section-subtitle">О компании</p>
         <h2 class="section-title">Ключ к успешному бизнесу </h2>
         <a href="#" class="primary-button">Подробнее</a>
     </div>
@@ -13,28 +13,28 @@
         </p>
         <div class="company-advantages">
             <div class="company-advantages__card">
-                <img src="images/about/town.svg" alt="about-icon">
+                <img class="advantages-img" src="images/about/town.svg" alt="about-icon">
                 <div class="card-content">
                     <h4 class="card-content__title">Быстрая доставка</h4>
                     <p class="card-content__desc">Продаж решений в месяц, включая продажи партнеров</p>
                 </div>
             </div>
             <div class="company-advantages__card">
-                <img src="images/about/town.svg" alt="about-icon">
+                <img class="advantages-img" src="images/about/town.svg" alt="about-icon">
                 <div class="card-content">
                     <h4 class="card-content__title">Быстрая доставка</h4>
                     <p class="card-content__desc">Продаж решений в месяц, включая продажи партнеров</p>
                 </div>
             </div>
             <div class="company-advantages__card">
-                <img src="images/about/town.svg" alt="about-icon">
+                <img class="advantages-img" src="images/about/town.svg" alt="about-icon">
                 <div class="card-content">
                     <h4 class="card-content__title">Быстрая доставка</h4>
                     <p class="card-content__desc">Продаж решений в месяц, включая продажи партнеров</p>
                 </div>
             </div>
             <div class="company-advantages__card">
-                <img src="images/about/town.svg" alt="about-icon">
+                <img class="advantages-img" src="images/about/town.svg" alt="about-icon">
                 <div class="card-content">
                     <h4 class="card-content__title">Быстрая доставка</h4>
                     <p class="card-content__desc">Продаж решений в месяц, включая продажи партнеров</p>

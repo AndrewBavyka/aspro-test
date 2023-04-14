@@ -1,12 +1,12 @@
 <section class="product">
     <div class="product-list">
         <div class="product-list__card">
-            <div class='sticker heat'>Хит</div>
+            <div class='sticker sticker-product heat'>Хит</div>
             <div class="product-card__info">
                 <a class="product-link_img" href="#">
                     <img src="/images/product/product1.png" alt="product-img">
                 </a>
-                <a class="product-link_title" href="#">
+                <a class="product-link__title" href="#">
                     <h4>Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)</h4>
                 </a>
                 <div class="product-sidebar">
@@ -25,12 +25,12 @@
         </div>
 
         <div class="product-list__card">
-            <div class='sticker recommend'>Советуем</div>
+            <div class='sticker sticker-product recommend'>Советуем</div>
             <div class="product-card__info">
                 <a class="product-link_img" href="#">
                     <img src="/images/product/product2.png" alt="product-img">
                 </a>
-                <a class="product-link_title" href="#">
+                <a class="product-link__title" href="#">
                     <h4>Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)</h4>
                 </a>
                 <div class="product-sidebar">
@@ -49,12 +49,12 @@
         </div>
 
         <div class="product-list__card">
-            <div class='sticker new'>Новинка</div>
+            <div class='sticker sticker-product new'>Новинка</div>
             <div class="product-card__info">
                 <a class="product-link_img" href="#">
                     <img src="/images/product/product3.png" alt="product-img">
                 </a>
-                <a class="product-link_title" href="#">
+                <a class="product-link__title" href="#">
                     <h4>Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)</h4>
                 </a>
                 <div class="product-sidebar">
@@ -72,12 +72,12 @@
             </div>
         </div>
         <div class="product-list__card">
-            <div class='sticker recommend'>Советуем</div>
+            <div class='sticker sticker-product recommend'>Советуем</div>
             <div class="product-card__info">
                 <a class="product-link_img" href="#">
                     <img src="/images/product/product4.png" alt="product-img">
                 </a>
-                <a class="product-link_title" href="#">
+                <a class="product-link__title" href="#">
                     <h4>Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)</h4>
                 </a>
                 <div class="product-sidebar">

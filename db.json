@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "img": "/images/product/product1.png",
+            "altimg": "product-img",
+            "title": "Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)",
+            "availability": "В наличии",
+            "article": "D98186A5",
+            "price": 37000
+        },
+        {
+            "img": "/images/product/product2.png",
+            "altimg": "product-img",
+            "title": "Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)",
+            "availability": "В наличии",
+            "article": "D98186A5",
+            "price": 37000
+        },
+        {
+            "img": "/images/product/product3.png",
+            "altimg": "product-img",
+            "title": "Мобильный телефон Samsung Galaxy Note 10 Lite 128GB (черный)",
+            "availability": "В наличии",
+            "article": "D98186A5",
+            "price": 33000
+        },
+        {
+            "img": "/images/product/product4.png",
+            "altimg": "product-img",
+            "title": "Мобильный телефон Samsung Galaxy Note 9 Lite 128GB (черный)",
+            "availability": "В наличии",
+            "article": "D98186A5",
+            "price": 31000
+        }
+    ]
+}
